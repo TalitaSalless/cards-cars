@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+    body {
+      height: auto;
+    }
+    main {
+        overflow: hidden;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        flex-grow: 1
+    }
+    button {
+        background-color: hsl(0, 0%, 95%);
+        font-weight: 500;
+    }
+    .card-sedans button {
+        color: hsl(31, 77%, 52%);
+    }
+    .card-suvs button {
+        color: hsl(184, 100%, 22%);
+    }
+    .card-luxury button {
+        color: hsl(179, 100%, 13%);
+    }
+}
+
+        
